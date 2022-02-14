@@ -75,8 +75,9 @@
 
 .profileCard__options {
     float: right;
-    padding: 10px 20px 0px 0px;
+    border: none;
+    background-color: white;
+}
+.profileCard__options__img {
     height: 25px;
 }
-
-
