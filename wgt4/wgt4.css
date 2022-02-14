@@ -18,6 +18,9 @@
     border-radius: 50%;
     height: 150px;
     margin: -75px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
     box-shadow: 0px 7px 7px #999;
 }
 
@@ -69,3 +72,11 @@
 .profileCard__description{
     padding: 20px;
 }
+
+.profileCard__options {
+    float: right;
+    padding: 10px 20px 0px 0px;
+    height: 25px;
+}
+
+
