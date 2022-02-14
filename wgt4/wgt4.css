@@ -23,4 +23,49 @@
 
 .profileCard__title{
     margin-top: 75px;
+    flex-direction: column;
+}
+.profileCard__name__profession{
+    margin-top:-20px;
+    color: #999;
+}
+.profileCard__interactions{
+    margin-top:-25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*background-color: burlywood;
+    border: 2px solid black;*/
+}
+.profileCard__data{
+    width: 40%;
+    margin: 10px;
+    /*text-align: center;
+    background-color: grey;
+    border: 2px solid black;*/
+}
+.profileCard__data__number{
+    font-size: 25px;
+    font-weight: bold;
+    color: aqua;
+}
+.profileCard__data__foot{
+    margin-top:-25px;
+    font-size: 15px;
+    color: #999;
+}
+.profileCard__button{
+    margin: 10px;
+    background-color: yellow;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 16px;
+    width: 75%;
+}
+.profileCard__description{
+    padding: 20px;
 }
