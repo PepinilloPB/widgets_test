@@ -1,4 +1,4 @@
-.profileCard{
+.profile-card{
     border-radius: 15px;
     border: 10px;
     box-shadow: 2px 2px 5px #999;
@@ -7,14 +7,14 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
-.profileCard__background{
+.profile-card__background{
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius:15px 15px 0px 0px ;
 }
 
-.profileCard__image{
+.profile-card__image{
     border-radius: 50%;
     height: 150px;
     margin: -75px;
@@ -24,15 +24,15 @@
     box-shadow: 0px 7px 7px #999;
 }
 
-.profileCard__title{
+.profile-card__title{
     margin-top: 75px;
     flex-direction: column;
 }
-.profileCard__name__profession{
+.profile-card__name-profession{
     margin-top:-20px;
     color: #999;
 }
-.profileCard__interactions{
+.profile-card__interactions{
     margin-top:-25px;
     display: flex;
     flex-direction: row;
@@ -40,24 +40,24 @@
     /*background-color: burlywood;
     border: 2px solid black;*/
 }
-.profileCard__data{
+.profile-card__data{
     width: 40%;
     margin: 10px;
     /*text-align: center;
     background-color: grey;
     border: 2px solid black;*/
 }
-.profileCard__data__number{
+.profile-card__data-number{
     font-size: 25px;
     font-weight: bold;
     color: aqua;
 }
-.profileCard__data__foot{
+.profile-card__data-foot{
     margin-top:-25px;
     font-size: 15px;
     color: #999;
 }
-.profileCard__button{
+.profile-card__button{
     margin: 10px;
     background-color: yellow;
     border: none;
@@ -69,15 +69,15 @@
     border-radius: 16px;
     width: 75%;
 }
-.profileCard__description{
+.profile-card__description{
     padding: 20px;
 }
 
-.profileCard__options {
+.profile-card__options {
     float: right;
     border: none;
     background-color: white;
 }
-.profileCard__options__img {
+.profile-card__options-img {
     height: 25px;
 }
