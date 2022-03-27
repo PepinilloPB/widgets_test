@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.widget{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    min-height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    background:linear-gradient(260.03deg, rgba(71, 219, 191, 0.3) 12.28%, rgba(0, 0, 0, 0) 90.95%), linear-gradient(80.53deg, rgba(161, 54, 188, 0.3) 10.3%, rgba(0, 0, 0, 0) 88.2%), url(https://s3-alpha-sig.figma.com/img/df21/746a/0b8d958d1e247d72a9daffd2a81337a6?Expires=1649030400&Signature=PUl4za-QxczJkL3JvQRT8QdT0mLmtQ8pFvJlVTPWkUK3I9AKcvvsYc70L~2gTZwiBzECQtXf~PvdS23D8xP2E397B9RB-NZiKSe7RYldT904w6liyOZNCC-bOTd14MuB2yM1ExhxGqHeZOsZVxssGCIFZ5afz~lQcKv1DDrXcK2zP~3bb77-KhCi6XkwpZ93GdsXQ6WmDMlCkNgzMsQs4J5HUftZFO3pCeN0co~F5wyBBnStO4G-632tua~mjqHqRzuJW~4OMpu792Bjhy35kPNMdcZE-76a5gPTt8LNu9KS1qc7eD6YoRnjtH0C7V9dlc7MlIQ~Hhs-dpJbRxdJyg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size: cover;
+    box-shadow: inset 500px 500px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 20px 25px rgba(37, 106, 116, 0.25));
+    color:white;
+    font-family:'Poppins';
+    font-weight: 500;
+    text-align: center;
+}
+.widget__title{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+}
+.widget__list{
+    text-align: left;
+    max-width: 80%;
+}
+.group__items{
+    width:50%;
+    margin:0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+}
+
+@media (max-width: 720px){
+    .container{
+        display: block;
+        width: 100%;
+        padding:0;
+    }
+    .group__items{
+        width:100%;
+        margin:0;
+    }
+}
