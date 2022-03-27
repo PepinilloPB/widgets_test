@@ -1,0 +1,491 @@
+.flex-container{
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 1920px) {
+    .task-card__widget-3{
+        width: 400px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        bottom: -10px;
+        right: -10px;
+        border-radius: 5%;
+        box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    }
+    .task-card__widget-3-circle{
+        position: relative;
+        bottom: -22px;
+        right: -255px;
+        z-index: 1;
+        background-color:  greenyellow;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2.5px solid #ffff;
+    }
+    .task-card__widget-3-img{
+        margin-left:auto;
+        margin-right:auto;
+        z-index: 0;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        position: relative;
+    
+    }
+    .task-card__widget-3-name{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 0;
+        
+    }
+    .task-card__widget-3-email{
+        font-size: 25px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0;
+    }
+    .widget-3-button{
+       width: 180px;
+       height: 50px;
+       margin-left:auto;
+       margin-right:auto;
+       justify-content: center;
+       background-color: #0044d0;
+       border-radius: 5px;
+       font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: #fff;
+       text-align: center;
+    }
+    .widget-3-button__img{
+        background-color: #fff;
+        margin-right: 15px;
+    }
+    .widget-3-container{
+        margin-top: 15px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 400px;
+        height: 200px;
+    }
+    .widget-3-container__data{
+        float: left;
+        width:50%;
+        text-align: center;
+    
+    }
+    .widget-3-container__data--bold{
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .widget-3-container__data--opacity{
+        font-size: 22px;
+        margin-top: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        opacity: 0.35;
+    }
+    .profileCard{
+        background-color: aliceblue;
+        position: relative;
+        border-radius: 15px;
+        border: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        box-shadow: 2px 2px 5px #999;
+        width: 300px;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+    .profileCard__background{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius:15px 15px 0px 0px ;
+    }
+    .profileCard__image{
+        border-radius: 50%;
+        height: 150px;
+        margin: -75px;
+        position: absolute;
+        top: 150px;
+        left: 160px;
+        box-shadow: 0px 7px 7px #999;
+    }
+    .profileCard__title{
+        margin-top: 75px;
+        flex-direction: column;
+    }
+    .profileCard__name__profession{
+        margin-top:-20px;
+        color: #999;
+    }
+    .profileCard__interactions{
+        margin-top:-25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .profileCard__data{
+        width: 40%;
+        margin: 10px;
+    }
+    .profileCard__data__number{
+        font-size: 25px;
+        font-weight: bold;
+        color: aqua;
+    }
+    .profileCard__data__foot{
+        margin-top:-25px;
+        font-size: 15px;
+        color: #999;
+    }
+    .profileCard__button{
+        margin: 10px;
+        background-color: yellow;
+        border: none;
+        color: black;
+        font-weight: bold;
+        padding: 10px 20px;
+        text-align: center;
+        margin: 4px 2px;
+        border-radius: 16px;
+        width: 75%;
+    }
+    .profileCard__description{
+        padding: 20px;
+    }
+    
+    .profileCard__options {
+        float: right;
+        border: none;
+        background-color: white;
+    }
+    .profileCard__options__img {
+        height: 25px;
+    }
+}
+@media screen and (max-width:700px){
+
+}
+
+@media screen and (max-width: 1980px) {
+    .task-card__widget-3{
+        width: 400px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        bottom: -10px;
+        right: -10px;
+        border-radius: 5%;
+        box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    }
+    .task-card__widget-3-circle{
+        position: relative;
+        bottom: -22px;
+        right: -255px;
+        z-index: 1;
+        background-color:  greenyellow;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2.5px solid #ffff;
+    }
+    .task-card__widget-3-img{
+        margin-left:auto;
+        margin-right:auto;
+        z-index: 0;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        position: relative;
+    
+    }
+    .task-card__widget-3-name{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 0;
+        
+    }
+    .task-card__widget-3-email{
+        font-size: 25px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0;
+    }
+    .widget-3-button{
+       width: 180px;
+       height: 50px;
+       margin-left:auto;
+       margin-right:auto;
+       justify-content: center;
+       background-color: #0044d0;
+       border-radius: 5px;
+       font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: #fff;
+       text-align: center;
+    }
+    .widget-3-button__img{
+        background-color: #fff;
+        margin-right: 15px;
+    }
+    .widget-3-container{
+        margin-top: 15px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 400px;
+        height: 200px;
+    }
+    .widget-3-container__data{
+        float: left;
+        width:50%;
+        text-align: center;
+    
+    }
+    .widget-3-container__data--bold{
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .widget-3-container__data--opacity{
+        font-size: 22px;
+        margin-top: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        opacity: 0.35;
+    }
+    .task-card__widget-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 23%; 
+        margin: 5px;
+        padding: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    .task-card__widget-1-title{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        margin: auto;
+    }
+    .task-card__widget-1-img{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        margin: auto;
+    }
+    .task-card__widget-1-button{
+        background-color: rgb(59, 164, 255);   
+        border: rgb(59, 164, 255);
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .task-card__widget-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 34%; 
+        margin: 5px;
+        padding: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    .task-card__widget-1-title{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        margin: auto;
+    }
+    .task-card__widget-1-img{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        margin: auto;
+    }
+    .task-card__widget-1-button{
+        background-color: rgb(59, 164, 255);
+        border: rgb(59, 164, 255);
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        margin: auto;
+    }
+    .task-card__widget-3{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        bottom: -10px;
+        right: -14px;
+        border-radius: 5%;
+        box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+        
+    }
+    .task-card__widget-3-circle{
+        position: relative;
+        bottom: -22px;
+        right: -195px;
+        z-index: 1;
+        background-color:  greenyellow;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2.5px solid #ffff;
+    }
+    .task-card__widget-3-img{
+        margin-left:auto;
+        margin-right:auto;
+        z-index: 0;
+        justify-content: center;
+        width: 130px;
+        height: 130px;
+    }
+    .task-card__widget-3-name{
+        font-size: 20px;
+    }
+    .task-card__widget-3-email{
+        font-size: 18px;
+    }
+    .widget-3-button{
+        width: 150px;
+        height: 50px;
+        margin-left:auto;
+        margin-right:auto;
+        justify-content: center;
+        background-color: #0044d0;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    .widget-3-button__img{
+        background-color: #fff;
+        margin-right: 10px;
+    }
+    .widget-3-container{
+        margin-top: 5px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 200px;
+        height: 100px;
+    }
+    .widget-3-container__data--bold{
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .widget-3-container__data--opacity{
+        font-size: 17px;
+        margin-top: 0;
+    }
+    .profileCard{
+        background-color: aliceblue;
+        position: relative;
+        border-radius: 15px;
+        border: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        box-shadow: 2px 2px 5px #999;
+        width: 150px;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+    .profileCard__background{
+        width: 100%;
+        height: 75px;
+        object-fit: cover;
+        border-radius:7px 7px 0px 0px ;
+    }
+    .profileCard__image{
+        border-radius: 50%;
+        height: 75px;
+        margin: -37px;
+        position: absolute;
+        top: 75px;
+        left: 80px;
+        box-shadow: 0px 7px 7px #999;
+    }
+    .profileCard__title{
+        margin-top: 37px;
+        flex-direction: column;
+    }
+    .profileCard__name__profession{
+        margin-top:-10px;
+        color: #999;
+    }
+    .profileCard__interactions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profileCard__data{
+        max-height: 40px;
+    }
+    .profileCard__data__number{
+        margin-top:-5px;
+        font-size: 25px;
+        font-weight: bold;
+        color: aqua;
+    }
+    .profileCard__data__foot{
+        margin-top:-25px;
+        font-size: 15px;
+        color: #999;
+    }
+    .profileCard__button{
+        margin: 7px;
+        background-color: yellow;
+        border: none;
+        color: black;
+        font-weight: bold;
+        padding: 5px 10px;
+        text-align: center;
+        margin: 4px 2px;
+        border-radius: 16px;
+        width: 75%;
+    }
+    .profileCard__description{
+        padding: 10px;
+    }
+    .profileCard__options {
+        float: right;
+        border: none;
+        background-color: aliceblue;
+    }
+    .profileCard__options__img {
+        height: 25px;
+    }
+}

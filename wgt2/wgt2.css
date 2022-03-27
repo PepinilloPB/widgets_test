@@ -1,0 +1,84 @@
+.profileCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 23%; 
+    margin: 5px;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+}
+
+.profileCard__profile{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.profileCard__profile__pic{
+    border-radius: 50%;
+    height: 70%;
+    width: 70%;
+    border: 8px solid rgba(185, 183, 183, 0.655);
+    margin: auto;
+}
+
+.profileCard__profile__countryBadge{
+    position: relative;
+    bottom: -130px;
+    right: 50px;
+    
+    height: 25px;
+    width: 25px;
+
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.profileCard__presentation{
+    margin: auto;
+    margin-top: 40px;
+}
+
+.profileCard__presentation__name{
+    font-family: "Courier New", Helvetica, sans-serif;
+    color:firebrick;
+    margin: 0;
+}
+
+.profileCard__presentation__pro{
+    font-family: "Courier New", Helvetica, sans-serif;
+    margin: 0;
+}
+
+.profileCard__description{
+    font-family: "Courier New", Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.profileCard__socialNet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: auto;
+    margin-top: 40px;
+}
+
+.profileCard__socialNet__Net{
+    width: 8%;
+    height: 8%;
+
+    padding: 5px;
+    margin: auto;
+
+}
