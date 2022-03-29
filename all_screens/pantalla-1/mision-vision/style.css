@@ -1,20 +1,75 @@
-.card{
-    position: absolute;
+.flex-container{
+    display: flex;
+    flex-flow: column wrap;
+}
+.mv-card{
+    display: flex;
     width: 1190px;
     height: 315px;
-
     background-color: #00B1A0D9;
     border-radius: 15px;
     border: 20px;
     box-shadow: 0px 20px 25px #999;
     width: 80%;
     text-align: center;
+    align-items: center;
+    justify-content: start;
 }
 
-.card__text{
+.m-card__text{
     float: left;
-    width: 50%;
-    
+    width: 60%;
     font-family: 'Poppins';
-    font-size: 16px;
+    color: white;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.m-card__img{
+    display: flex;
+    float: right;
+    width: 40%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 15px;
+    background: linear-gradient(68.05deg, rgba(161, 54, 188, 0.3) 5.56%, rgba(0, 0, 0, 0) 94.16%), 
+                linear-gradient(248.58deg, rgba(38, 213, 180, 0.3) 8.7%, rgba(0, 0, 0, 0) 94.26%), 
+                url(https://www.noticiasfides.com/images/news/2021/01/c-ucb1-407738-27D1.jpg);
+                
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 50px;
+}
+
+.v-card__text{
+    float: right;
+    width: 60%;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.v-card__img{
+    display: flex;
+    float: left;
+    width: 40%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 15px;
+    background: linear-gradient(68.05deg, rgba(161, 54, 188, 0.3) 5.56%, rgba(0, 0, 0, 0) 94.16%), 
+                linear-gradient(248.58deg, rgba(38, 213, 180, 0.3) 8.7%, rgba(0, 0, 0, 0) 94.26%), 
+                url(https://www.noticiasfides.com/images/news/2021/01/c-ucb1-407738-27D1.jpg);
+                
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 50px;
 }
