@@ -33,7 +33,7 @@ body{
     max-width: 80%;
 }
 .benefits-card__list-item{
-    margin-top: 5px;
+    margin: 5px;
     list-style-image:url(./chevron-derecho.png) ;
 }
 .benefits-card__group-items{
@@ -55,5 +55,6 @@ body{
     .benefits-card__group-items{
         width:100%;
         margin:0;
+        margin-top: -5px;
     }
 }
