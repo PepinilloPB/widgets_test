@@ -4,19 +4,18 @@
 }
 .mv-card{
     display: flex;
-    width: 1190px;
+    width: 100%;
     height: 315px;
     background-color: #00B1A0D9;
     border-radius: 15px;
     border: 20px;
     box-shadow: 0px 20px 25px #999;
-    width: 80%;
     text-align: center;
     align-items: center;
     justify-content: start;
 }
 
-.m-card__text{
+.mv-card__text—left{
     float: left;
     width: 60%;
     font-family: 'Poppins';
@@ -26,7 +25,7 @@
     padding-right: 5%;
 }
 
-.m-card__img{
+.mv-card__img—left{
     display: flex;
     float: right;
     width: 40%;
@@ -45,7 +44,7 @@
     font-size: 50px;
 }
 
-.v-card__text{
+.mv-card__text—right{
     float: right;
     width: 60%;
     font-family: 'Poppins';
@@ -55,7 +54,7 @@
     padding-right: 5%;
 }
 
-.v-card__img{
+.mv-card__img—right{
     display: flex;
     float: left;
     width: 40%;
