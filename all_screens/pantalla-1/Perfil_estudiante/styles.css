@@ -1,68 +1,110 @@
-
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
+body{
+    margin: 20;
+    padding: 0;
+    
+}
+.student-profile{
     
     display: flex;
+    /*flex-direction: column ;
+    flex-flow: column wrap;*/
     justify-content: center;
     align-items: center;
-    
+    margin: auto;
     border-radius: 20px;
     box-shadow: inset 500px 500px 4px rgba(0, 0, 0, 0.25);
-    width: 800px;
+    width: 90%;
     height: 500px;
     font-family: 'Poppins';
     
     
     
 }
-.container__widget{
-    /*position:absolute;*/
+.student-profile__left-side{
+    /*position:relative;*/
+   display: flex;
     float: left;
-    width: 35%;
-    height:100%;
-    /*padding: 25px;*/
-    border-radius: 20px;
+    max-width: 35%;
+    height: 100%;
+    flex-direction: column ;
+    border-radius: 20px 0px 0px 20px;
+   
     background-color: #00B1A0;
+    text-align: right;
+    align-items: center;
+    /*justify-content: start;*/
     
     
 }
-.container__widget__text-1{
-    font-size: 25px;
-    padding: 25px;
-    text-align: right;  
+.student-profile__left-side__text-1{
+    display: flex;
+    position: relative;
+    width: 75%;
+    height: 60%;
+    padding-left: 5%;
+    padding-top: 10%;
+    
+    font-size: 20px;
+    /*padding: 10px;*/
+    align-items: right;
     color: #ffff; 
 }
-.container__widget__text-2{
+.student-profile__left-side__text-2{
     position: relative;
-    bottom: -50px;
-
-    font-size: 50px;
+    width: 75%;
+    display: flex;
+    height: 40%;
+    padding-right: 5%;
+    font-size: 60px;
+    align-items: right;
     text-align: right;  
     color: #ffff;   
-    padding: 25px;
+    padding: 10px;
 }
 
-.container__right{
-    
+.student-profile__right{
+   display: flex;
     float: left;
-    width: 65%;
+    min-width: 65%;
+    /*height: 100%;*/
     height: 100%;
+    border-radius: 0px 20px 20px 0px;
    
-    border-radius: 20px;
+    
     z-index: 0;
-    position: relative;
+    /*position: relative;*/
     background: linear-gradient(260.03deg, rgba(71, 219, 191, 0.3) 12.28%, rgba(0, 0, 0, 0) 90.95%), linear-gradient(80.53deg, rgba(161, 54, 188, 0.3) 10.3%, rgba(0, 0, 0, 0) 88.2%),url(https://s3-alpha-sig.figma.com/img/df21/746a/0b8d958d1e247d72a9daffd2a81337a6?Expires=1649030400&Signature=PUl4za-QxczJkL3JvQRT8QdT0mLmtQ8pFvJlVTPWkUK3I9AKcvvsYc70L~2gTZwiBzECQtXf~PvdS23D8xP2E397B9RB-NZiKSe7RYldT904w6liyOZNCC-bOTd14MuB2yM1ExhxGqHeZOsZVxssGCIFZ5afz~lQcKv1DDrXcK2zP~3bb77-KhCi6XkwpZ93GdsXQ6WmDMlCkNgzMsQs4J5HUftZFO3pCeN0co~F5wyBBnStO4G-632tua~mjqHqRzuJW~4OMpu792Bjhy35kPNMdcZE-76a5gPTt8LNu9KS1qc7eD6YoRnjtH0C7V9dlc7MlIQ~Hhs-dpJbRxdJyg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
     background-size: cover;
     
 }
 
-.container__right__text{
+.student-profile__right__text{
     position: relative;
-    bottom: -200px;
+    display: flex;
+    bottom: -100px;
+    left: 50px;
     padding-left: 25px;
     z-index: 1;
-    font-size: 90px;
+    font-size: 100px;
     color: #ffff;
     font-weight: bold;
     
     
+}
+@media (max-width: 900px){
+    .student-profile{
+       width: 100%;
+       padding:0;
+    }
+    .student-profile__left-side__text-1{
+        font-size: 15px;
+    }
+    .student-profile__left-side__text-2{
+        font-size: 30px;
+    }
+    .student-profile__right__text{
+        bottom: -300px;
+        font-size:30px;
+    }
 }
