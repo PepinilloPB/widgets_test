@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
 body{
     margin: 0px;
 }
@@ -34,7 +35,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    width: 52%;
+    width: 62%;
     padding-top: 19px;
     padding-bottom: 19px;
     float:right;
