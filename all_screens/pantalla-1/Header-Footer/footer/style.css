@@ -31,7 +31,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    width: 200px;
+    width: 20%;
     padding-top: 18px;
     padding-bottom: 18px;
     float:right;
