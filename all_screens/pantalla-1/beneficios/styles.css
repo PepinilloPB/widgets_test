@@ -45,7 +45,7 @@ body{
     padding: 0px 40px;
 }
 
-@media (max-width: 720px){
+@media (max-width: 768px){
     .container{
         display: block;
         padding:0px 40px;
@@ -54,5 +54,13 @@ body{
         width:100%;
         margin:0;
         margin-top: -7px;
+    }
+    .benefits-card__title{
+        font-size: 55px;
+    }
+}
+@media (max-width: 320px){
+    .benefits-card__title{
+        font-size: 40px;
     }
 }
