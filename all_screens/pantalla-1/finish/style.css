@@ -328,6 +328,7 @@ body {
     .student-profile {
         width: 100%;
         flex-direction: column;
+        min-height: 300px;
     }
 
     .student-profile__right {
@@ -353,7 +354,7 @@ body {
         /*left: 50px;
         padding-left: 25px;
         z-index: 1;*/
-        font-size: 80px;
+        font-size: 50px;
         font-weight: 900;
         line-height: 120px;
         color: #ffff;
@@ -369,8 +370,74 @@ body {
         text-align: left;
     }
 
+    .student-profile__left-side__text-1 {
+        width:80%;
+        margin-top: 0;
+        margin: auto;
+    }
+
     .student-profile__left-side__text-2 {
         text-align: left;
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (max-width: 320px){
+    .student-profile {
+        width: 100%;
+        flex-direction: column;
+        min-height: 300px;
+    }
+
+    .student-profile__right {
+        display: none;
+        visibility: hidden;
+    }
+
+    .student-profile__top {
+        visibility: visible;
+        display: block;
+        border-radius: 0px 20px 20px 0px;
+        z-index: 0;
+        /*position: relative;*/
+        background: url(Rectangle\ 149.png);
+        background-size: cover;
+        min-width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .student-profile__top__text {
+        /*left: 50px;
+        padding-left: 25px;
+        z-index: 1;*/
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 50px;
+        color: #ffff;
+        margin: 5px;
+    }
+
+    .student-profile__left-side {
+        display: block;
+        min-width: 100%;
+        border-radius: 0px 0px 20px 20px;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    .student-profile__left-side__text-1 {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .student-profile__left-side__text-2 {
+        text-align: left;
+        visibility: hidden;
+        display: none;
     }
 }
 
@@ -385,7 +452,7 @@ body {
     min-height: 500px;
     margin: auto;
     margin-top: 20px;
-    border: 2px solid;
+    /*border: 2px solid;*/
     border-radius: 20px;
     background: linear-gradient(260.03deg, rgba(71, 219, 191, 0.3) 12.28%, rgba(0, 0, 0, 0) 90.95%), linear-gradient(80.53deg, rgba(161, 54, 188, 0.3) 10.3%, rgba(0, 0, 0, 0) 88.2%), url(https://images.unsplash.com/photo-1554180842-41b1dd69d588?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
     background-size: cover;
