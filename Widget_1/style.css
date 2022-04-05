@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .flex-container{
     width: 200px;
     padding: 10px;
@@ -24,4 +25,32 @@
     border: 1px solid lightskyblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+=======
+.flex-container{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid lightskyblue;
+}
+.button {
+    display: block;
+	border-radius: 3px;
+    margin-left: auto; 
+    margin-right:auto;
+}
+.flex-container__title{
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flex-container__icon{
+    margin:10px auto;
+    display:block;
+    max-width: 75px;
+}
+.flex-container__button{
+    background-color: lightskyblue;
+    border: 1px solid lightskyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3
 }

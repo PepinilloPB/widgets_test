@@ -5,7 +5,11 @@
     justify-content: space-evenly;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1980px) {
+=======
+@media screen and (max-width: 7680px) {
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3
     .task-card{
         display: flex;
         flex-direction: column;
@@ -154,4 +158,7 @@
         margin: auto;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3

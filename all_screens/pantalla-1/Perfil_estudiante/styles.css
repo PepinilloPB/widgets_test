@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 20;
+    padding: 0;
+    
+}
+.student-profile{
+    
+    display: flex;
+    /*flex-direction: column ;
+    flex-flow: column wrap;*/
+    /*justify-content: center;
+    align-items: center; Isai*/
+    /*margin: auto;*/
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: inset 500px 500px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins';
+    margin: auto;
+    min-height: 592px;
+
+}
+.student-profile__left-side{
+    /*position:relative; Isai*/
+    /*display: flex; Isai*/
+    float: left;
+    max-width: 35%;
+    min-height: 100%;
+    flex-direction: column ;
+    border-radius: 20px 0px 0px 20px;
+   
+    background-color: #00B1A0;
+    text-align: right;
+    align-items: center;
+    padding-right: 5%;
+    /*justify-content: start;*/
+    
+    
+}
+.student-profile__left-side__text-0{
+    /*display: flex; Isai*/
+    position: relative;
+    /*height: 60%; Isai*/ 
+    padding-left: 5%;
+    padding-top: 10%;
+    font-weight: 600;
+    font-size: 20px;
+    /*padding: 10px;*/
+    align-items: right;
+    color: #ffff; 
+}
+.student-profile__left-side__text-1{
+    /*display: flex; Isai*/
+    position: relative;
+    /*height: 60%; Isai*/ 
+    min-height: 40%;
+    padding-left: 5%;
+    padding-top: 10%;
+    font-weight: 500;
+    font-size: 16px;
+    /*padding: 10px;*/
+    align-items: right;
+    color: #ffff; 
+}
+.student-profile__left-side__text-2{
+    position: relative;
+    padding-right: 5%;
+    line-height: 90px;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: right;  
+    color: #ffff;   
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: 0%;
+}
+
+.student-profile__right{
+    display: flex;
+    float: right;
+    width: 65%;
+    min-height: 100%;
+    border-radius: 0px 20px 20px 0px;
+   
+    
+    z-index: 0;
+    /*position: relative;*/
+    background: url(Rectangle\ 149.png);
+    background-size: cover;
+}
+
+.student-profile__right__text{
+    /*position: relative;
+    display: flex;
+    bottom: -100px;*/
+    left: 50px;
+    padding-left: 25px;
+    z-index: 1;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 120px;
+    color: #ffff;
+    margin-top: auto;
+    margin-bottom: 0;
+    /*font-weight: bold;*/
+}
+.student-profile__top{
+    display: none;
+    visibility: hidden;
+}
+@media (max-width: 768px){
+    .student-profile{
+        width: 100%;
+        flex-direction: column;
+    }
+    .student-profile__right{
+        display: none;
+        visibility: hidden;
+    }
+    .student-profile__top{
+        visibility: visible;
+        display: block;
+        border-radius: 0px 20px 20px 0px;
+        z-index: 0;
+        /*position: relative;*/
+        background: url(Rectangle\ 149.png);
+        background-size: cover;
+        min-width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        margin: 0;
+        padding: 0;
+    }
+    .student-profile__top__text{
+        /*left: 50px;
+        padding-left: 25px;
+        z-index: 1;*/
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 120px;
+        color: #ffff;
+        margin: 5px;
+    }
+    .student-profile__left-side{
+        display: block;
+        min-width: 100%;
+        border-radius: 0px 0px 20px 20px;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+    .student-profile__left-side__text-2{
+        text-align: left;
+    }
+}

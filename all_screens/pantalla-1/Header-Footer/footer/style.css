@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@100;500;700&display=swap');
+body{
+    margin: 0px;
+}
+
+.footer{
+    height: 82px;
+    background: #000000;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.footer__text{
+
+    width: 693px;
+    height: 64px;
+    padding-top: 33px;
+    padding-bottom: 20px;
+    float: left;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 13px;
+
+    color: #C3CBCD;
+}
+
+.footer__contact-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 20%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    float:right;
+}
+
+.footer__contact-item{
+    display: flex;
+    flex-direction: column;    
+
+    width: 46px;
+    height: 46px;
+
+}

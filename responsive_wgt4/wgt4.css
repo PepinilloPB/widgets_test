@@ -4,7 +4,11 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 1280px) {
+=======
+@media screen and (max-width: 1980px) {
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3
     .profileCard{
         background-color: aliceblue;
         position: relative;
@@ -23,6 +27,10 @@
         object-fit: cover;
         border-radius:15px 15px 0px 0px ;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3
     .profileCard__image{
         border-radius: 50%;
         height: 150px;
@@ -32,6 +40,10 @@
         left: 160px;
         box-shadow: 0px 7px 7px #999;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3
     .profileCard__title{
         margin-top: 75px;
         flex-direction: column;
@@ -45,10 +57,21 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+<<<<<<< HEAD
+=======
+        /*background-color: burlywood;
+        border: 2px solid black;*/
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3
     }
     .profileCard__data{
         width: 40%;
         margin: 10px;
+<<<<<<< HEAD
+=======
+        /*text-align: center;
+        background-color: grey;
+        border: 2px solid black;*/
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3
     }
     .profileCard__data__number{
         font-size: 25px;
@@ -122,12 +145,24 @@
         color: #999;
     }
     .profileCard__interactions{
+<<<<<<< HEAD
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .profileCard__data{
         max-height: 40px;
+=======
+        /*margin-top:-50px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*background-color: yellowgreen;*/
+    }
+    .profileCard__data{
+        max-height: 40px;
+        /*background-color: yellowgreen;*/
+>>>>>>> 5fca0e5f13413cf8932a15a65419804e75525ff3
     }
     .profileCard__data__number{
         margin-top:-5px;
